@@ -36,10 +36,9 @@ function closeNav() {
 $('.slider-content').slick({
     dots: true,
     infinite: true,
-    // speed: 300,
     slidesToShow: 3,
     slidesToScroll: 1,
-    // autoplay: 2000,
+    autoplay: 2000,
     responsive: [
         {
             breakpoint: 1000,
